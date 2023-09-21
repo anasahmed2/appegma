@@ -1,0 +1,1545 @@
+/*Montserrat*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/*Roboto*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/*Poppins*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+::-webkit-scrollbar {
+  height: 12px;
+  width: 18px;
+ 
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: radial-gradient(
+    circle farthest-corner at 0% -50%,
+    hsla(0, 0%, 100%, 0) 3%,
+    #727272 44%,
+    hsla(0, 0%, 100%, 0) 72%
+  ),
+  radial-gradient(circle farthest-corner at 50% 100%, #e1e1e1, #848484);
+  -webkit-border-radius: 4px;
+}
+
+::-webkit-scrollbar-corner {
+  background: var(--background);
+}
+
+
+.fontSizeMax {
+  font-size: 6em !important ;
+}
+.bg-1 {
+  background-color: #171e25;
+}
+
+.bg-2 {
+  background-image: linear-gradient(
+    90deg,
+    #292f37,
+    rgba(33, 38, 45, 0)
+  ) !important;
+}
+.bg-3 {
+  background-color: #722e07;
+}
+.bg-4 {
+  background-color: #4036be;
+}
+.bg-5 {
+  background-color:#0d1117;
+}
+.textgreadent1 {
+  background-image: linear-gradient(22deg, #f1c73f 23%, #77bd0c 87%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.textgreadent2 {
+  background-image: linear-gradient(191deg, #f1dc39 25%, #c96e05 87%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.textgreadent3 {
+  background-image: linear-gradient(207deg, #e23b3b 23%, #6668eb 87%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.textgreadent4 {
+  background-image: linear-gradient(351deg, #31b3ec 23%, #524add 87%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.textgreadent5 {
+  background-image: linear-gradient(
+    90deg,
+    #ec6464,
+    #eecc0b 33%,
+    #3dd875 66%,
+    #31b3ec
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.textgreadent6 {
+  background-image: linear-gradient(191deg, #f1dc39 25%, #c96e05 87%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.textgreadent7 {
+  background-image: linear-gradient(321deg, #b77cf1 23%, #e22a7c 87%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.boxGreadent1 {
+  background-image: radial-gradient(
+      circle farthest-corner at 0% -50%,
+      hsla(0, 0%, 100%, 0) 3%,
+      #079de0 44%,
+      hsla(0, 0%, 100%, 0) 72%
+    ),
+    radial-gradient(circle farthest-corner at 50% 100%, #a355ee, #3077eb);
+}
+
+.boxGreadent2 {
+  background-color: #fceced;
+  background-image: radial-gradient(
+    circle farthest-corner at 100% 0%,
+    #f09898,
+    #fff
+  );
+}
+
+.boxGreadent3 {
+  background-color: #171e25;
+  background-image: linear-gradient(124deg, #cff18f, #fff);
+}
+
+.boxGreadent4 {
+  background-color: #171e25;
+  background-image: linear-gradient(0deg, #5ce5f6, #fff);
+}
+
+.bg-Image1{
+  background-image: url("./asset/bg-shape-05.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+* {
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.display-none {
+  display: none !important;
+}
+
+body{
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0d1117;
+  margin: 0;
+  padding: 0;
+}
+.mainContainer {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0d1117;
+}
+
+.modalMainConatiner {
+  width: 100%;
+  height: auto;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  position: relative;
+  background-color: #0d1117;
+}
+
+.modalMainBody {
+  width: 100%;
+  height: auto;
+  padding-top: 10em;
+  padding-bottom: 10em;
+}
+
+.ModalBackDesign {
+  position: relative;
+  background-image: linear-gradient(0deg, #0d1117, rgba(13, 17, 23, 0) 15%),
+    linear-gradient(180deg, #0d1117, rgba(13, 17, 23, 0) 15%),
+    radial-gradient(
+      circle farthest-side at 50% 50%,
+      rgba(13, 17, 23, 0),
+      #0d1117
+    ),
+    url("./asset/bg-tile-dark.svg");
+  background-position: 0px 0px, 0px 0px, 0px 0px, -1px -1px;
+  background-size: auto, auto, auto, 64px;
+}
+
+.modalBackDesigncolor {
+  background-color: #221f7e;
+}
+
+.modalContantContainer {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  z-index: 5;
+}
+
+.modalRelative {
+  position: relative;
+  z-index: 5;
+}
+
+.modalHeading {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  color: #ccdae7;
+  margin: 0 auto;
+  font-size: 2.2em;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.modalHeading > h1 {
+  margin: 0;
+}
+
+.modalHeadingMain {
+  max-width: 450px;
+  width: 100%;
+  height: auto;
+  margin: 0em auto 2.5em auto;
+}
+
+.modalDetail {
+  max-width: 670px;
+  width: 100%;
+  height: auto;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: -0.002em;
+}
+
+.btnContainer {
+  width: 200px;
+  height: auto;
+  background-color: transparent;
+  margin: 0 auto;
+  color: #ccdae7;
+  text-align: center;
+}
+
+.classBtn1 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding: 0.75em 1.25em;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 1.5em;
+  background-color: #0052cc;
+  cursor: pointer;
+  transition: color 100ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  letter-spacing: -0.91px;
+  z-index: 5;
+  overflow: hidden;
+  -webkit-box-pack: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  text-align: center;
+  font-weight: bold;
+}
+
+.classBtn3 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding: 0.75em 1.25em;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 1em;
+  background-color: #0052cc;
+  cursor: pointer;
+  transition: color 100ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  letter-spacing: -0.91px;
+  z-index: 5;
+  overflow: hidden;
+  -webkit-box-pack: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  text-align: center;
+  font-weight: bold;
+}
+.classBtn4 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding: 0.75em .8em;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 1.2em;
+  background-color: #0052cc;
+  cursor: pointer;
+  transition: color 100ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  letter-spacing: -0.25px;
+  z-index: 5;
+  overflow: hidden;
+  -webkit-box-pack: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  text-align: center;
+  font-weight: bold;
+}
+
+.classBtn1Value {
+  position: relative;
+  z-index: 5;
+  font-size: 0.7em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+}
+
+.classBtn1Animation {
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.classBtn1Animation:hover {
+  transform: translate3d(101%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+  display: block;
+}
+
+.classBtn2 {
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+  border: 1px solid #3f4852;
+  box-shadow: inset 0 0 0 1px #3f4852;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 700;
+  padding: 0.65em 1.25em;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  outline: none;
+}
+
+.classBtn2:hover {
+  border: 1px solid #fff;
+  box-shadow: inset 0 0 0 1px #fff;
+}
+
+.card7span {
+  margin: 0;
+  width: 30px;
+  height: 15px;
+  font-size: 9px;
+  background-color: #3aecba;
+  outline: none;
+  color: #0d1117;
+  border: none;
+  padding: 1px 3px;
+  border-radius: 2px;
+}
+
+.modalCircleImage1 {
+  position: absolute;
+  top: 25%;
+  left: 17%;
+  width: 95px;
+  height: 95px;
+  border-radius: 9999px;
+  z-index: 5;
+}
+
+.modalCircleImage2 {
+  position: absolute;
+  bottom: 12%;
+  right: 25%;
+  width: 85px;
+  height: 85px;
+  border-radius: 9999px;
+  z-index: 5;
+}
+
+.modalCircleImage3 {
+  position: absolute;
+  right: 5%;
+  bottom: 29%;
+  width: 119px;
+  height: 119px;
+  border-radius: 9999px;
+  z-index: 5;
+}
+
+.modalCircleImage4 {
+  position: absolute;
+  bottom: 58%;
+  right: 17%;
+  width: 76px;
+  height: 76px;
+  border-radius: 9999px;
+  z-index: 5;
+}
+
+.modalCircleImage5 {
+  position: absolute;
+  top: 6%;
+  right: 32%;
+  width: 6em;
+  height: 6em;
+  border-radius: 9999px;
+  z-index: 5;
+}
+
+.modalCircleImage6 {
+  position: absolute;
+  top: 8%;
+  right: 54%;
+  width: 6.25em;
+  height: 6.25em;
+  border-radius: 9999px;
+  z-index: 5;
+}
+
+.modalCircleImage7 {
+  position: absolute;
+  left: 42%;
+  bottom: -7%;
+  width: 6.5em;
+  height: 6.5em;
+  border-radius: 9999px;
+  z-index: 5;
+}
+
+.modalCircleImage8 {
+  position: absolute;
+  bottom: 16%;
+  left: 30%;
+  width: 4em;
+  height: 4em;
+  border-radius: 9999px;
+  z-index: 5;
+}
+
+.modalCircleImage9 {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  width: 120px;
+  height: 120px;
+  border-radius: 9999px;
+  z-index: 5;
+}
+
+.section {
+  width: 100%;
+  padding: 5em 0.5em 3em 0.5em;
+}
+.section2 {
+  width: 100%;
+  padding: 5em 0.5em 8em 0.5em;
+}
+
+.btnWidth {
+  width: 160px;
+  height: auto;
+}
+
+.sectionA {
+  width: 100%;
+  height: auto;
+  margin: 0px auto 100px auto;
+}
+
+.cardContainer {
+  max-width: 980px;
+  width: 100%;
+  height: auto;
+  background-color: #171e25;
+  border-radius: 10px;
+  display: flex;
+  padding: 5rem;
+  margin: 1em auto;
+}
+
+.layoutCard {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  flex-wrap: wrap;
+}
+
+.right {
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+.cardDataContainer {
+  width: 50%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.cardheading > h1 {
+  font-size: 2.3em;
+  color: #ccdae7;
+}
+
+.cardheading > p {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.cardImageContainer {
+  width: 35%;
+  max-width: 600px;
+  height: 266px;
+  border-radius: 10px;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardImage {
+  width: 60%;
+  height: 119px;
+  background-color: #171e25;
+  border-radius: 10px;
+  margin: 2em auto;
+}
+
+.cardImage > img {
+  width: 100%;
+  height: 119px;
+  border-radius: 10px;
+}
+
+.LineHolderMainContainer {
+  width: 100%;
+  position: relative;
+}
+
+.lineHolderDesign {
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: auto;
+  left: 0%;
+  right: 0%;
+  bottom: 30%;
+}
+
+.lineHolderColor {
+  background-image: linear-gradient(90deg, #21262d, rgba(33, 38, 45, 0));
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.title1ContainerMainContainer2 {
+  position: relative;
+  z-index: 5;
+  width: 100%;
+  max-width: 64em;
+  margin-right: auto;
+  margin-bottom: 40px;
+  margin-left: auto;
+  padding-right: 1.25em;
+  padding-left: 1.25em;
+  text-align: center;
+}
+
+.title1ContainerMainContainer {
+  position: relative;
+  z-index: 5;
+  width: 100%;
+  max-width: 64em;
+  margin-right: auto;
+  margin-bottom: 40px;
+  margin-left: auto;
+  padding-right: 1.25em;
+  padding-left: 1.25em;
+}
+
+.title1Heading {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.title1HeadingContant {
+  min-width: 100px;
+  height: auto;
+  display: flex;
+  text-transform: uppercase;
+  align-items: center;
+  color: #fff;
+}
+
+.contantValueContainer {
+  display: flex;
+  align-items: center;
+  font-size: 0.7em;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  font-family: sans-serif;
+}
+
+.contantNocontainer {
+  height: auto;
+  opacity: 0.5;
+  font-weight: bold;
+  font-size: 0.7em;
+  margin-right: 10px;
+  letter-spacing: 0.15em;
+}
+
+.title1HeadingLineholder2 {
+  width: 40%;
+  height: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+}
+
+.title1HeadingLineholder {
+  width: 70%;
+  height: auto;
+  margin-left: 10px;
+  position: relative;
+}
+
+.title1DetailContainer2 {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  display: grid;
+  -webkit-box-pack: start;
+  justify-content: center;
+  grid-auto-flow: column;
+  grid-auto-columns: auto;
+  grid-column-gap: 1.5em;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+.title1DetailContainer {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  display: grid;
+  -webkit-box-pack: start;
+  justify-content: start;
+  grid-auto-flow: column;
+  grid-auto-columns: auto;
+  grid-column-gap: 1.5em;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+.title1Image {
+  width: 2.75em;
+  height: 2.75em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: #7f89ec;
+  border-width: 3px;
+  border-radius: 9999px;
+  border-style: solid;
+  background-color: #4036be;
+  background-image: radial-gradient(
+    circle farthest-side at -50% 50%,
+    #524add,
+    #4036be
+  );
+  box-shadow: inset 0 0 5px 0 #2e2799, 0 8px 24px -8px #7f89ec;
+  color: #bcc6ee;
+  font-size: 1.25em;
+  text-align: center;
+  padding: 2px;
+}
+
+.title1Image > img {
+  width: 1.25em;
+  height: 1.25em;
+  border-radius: 9999px;
+}
+
+.title1MainHeading {
+  width: 100%;
+  max-width: fit-content;
+  height: auto;
+}
+
+.title1HeadingH1A {
+  font-size: 4em;
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0;
+  color: #ccdae7;
+}
+
+.title1HeadingH1 {
+  font-size: 3.5em;
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0;
+  color: #ccdae7;
+}
+
+.title1Detail {
+  color: #fff;
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.section1 {
+  width: 100%;
+  padding-bottom: 5em;
+}
+
+.section1A {
+  width: 100%;
+  max-width: 86em;
+  margin: 0 auto;
+  padding: 0 1.25em;
+}
+
+.section2Divider {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.divider1 {
+  width: 33%;
+  height: auto;
+}
+
+.divider2 {
+  width: 66.5%;
+  height: 100%;
+}
+
+.divider2container {
+  width: 100%;
+  height: auto;
+  padding: 35px 1.25em 0px 1.25em;
+}
+
+.divider2heading {
+  width: 100%;
+  height: auto;
+  margin-bottom: 35px;
+}
+
+.divider2heading > h6 {
+  color: #fff;
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: 600;
+  letter-spacing: 0px;
+  line-height: 1.2;
+}
+
+.divider2heading > h1 {
+  color: #ccdae7;
+  font-size: 4em;
+  margin: 6px auto;
+  line-height: 1;
+}
+
+.divider2card {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+
+.sectionDivider {
+  width: 100%;
+  height: auto;
+}
+
+.sectionDividerA {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sectionABtn1 {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  margin: 0 auto;
+}
+.sectionAContainer {
+  width: 100%;
+  max-width: 1350px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.card1Container {
+  width: 100%;
+  max-width: 310px;
+  height: auto;
+  margin: 8px 4px;
+  padding: 8px 4px;
+  color: #fff;
+}
+
+.card1Img {
+  width: 290px;
+  height: 290px;
+  margin: 0 auto;
+}
+
+.card1Img > img {
+  width: 290px;
+  height: 290px;
+  border-radius: 0.75em;
+}
+
+.card1Name {
+  margin: 15px auto;
+  width: 100%;
+  text-align: center;
+}
+
+.card1Name > p {
+  margin: 0;
+  font-size: 1.1em;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.card1Experience {
+  width: 100%;
+  text-align: center;
+}
+
+.card1Experience > p {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.card3Container {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  border: 1px solid #21262d;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+.card3greadentBox {
+  width: 100%;
+  height: 215px;
+  border-radius: 20px 20px 0px 0px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  align-items: center;
+  padding: 25px;
+}
+
+.card3greadentArea > h5 {
+  font-size: 1.2em;
+  margin: 0px;
+}
+
+.card3greadentArea {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.card3greadentArea > h1 {
+  font-size: 3em;
+  line-height: 1.1em;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  margin: 8px auto;
+}
+
+.card3Btn {
+  max-width: 230px;
+  margin: 15px auto 0px auto;
+}
+
+.card3DetailContainer {
+  width: 100%;
+  height: auto;
+  padding: 2.5em 1.5em;
+}
+
+.card3Detail1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.card3Detail1 > img {
+  width: 20px;
+  height: 20px;
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.card3Detailtext {
+  width: 90%;
+  height: auto;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.card3Detailtext > p {
+  font-size: 1em;
+  letter-spacing: -0.005em;
+  margin: 0;
+  color: #fff;
+  font-weight: 600;
+}
+
+.card3_D_C_Area {
+  margin-bottom: 30px;
+}
+
+.card3_D_C_Area > h2 {
+  margin: 10px auto 5px auto;
+  color: #fff !important;
+}
+
+.card2Container {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+  color: #fff;
+  text-align: center;
+  margin: 7px;
+}
+
+.card2ImgArea {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  line-height: 1;
+  margin: 10px auto;
+}
+
+.card2ImgArea > img {
+  width: 20px;
+  height: 20px;
+  margin: 3px auto 10px auto;
+}
+
+.card2ImgArea > h3 {
+  color: #ccdae7;
+  margin: 0;
+}
+
+.card2ImgArea > h6 {
+  margin: 15px auto 10px auto;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.card4Container {
+  width: 100%;
+  max-width: 315px;
+  height: auto;
+  margin: 10px;
+  box-shadow: inset 0 0 0 1px #272e35, 0 4px 8px -4px #101720;
+  text-align: center;
+  background-color: #1e252c;
+  padding: 1.7em 1em;
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+ 
+  border-radius: 10px;
+}
+
+.card4ContantArea {
+  width: 100%;
+  height: auto;
+}
+
+.card4Img {
+  width: 42px;
+  height: 42px;
+  border-radius: 9999px;
+  background-color: #707070 !important;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card4Img > img {
+  width: 30px;
+  height: 30px;
+}
+
+.card4detail {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.card4detail > h6 {
+  margin: 0 auto;
+  color: #fff;
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
+
+.card5Container {
+  width: 100%;
+  max-width: 370px;
+  height: auto;
+  margin: 20px;
+}
+
+.card5Img {
+  width: 100%;
+  height: 240px;
+  background-color: #079de0;
+  border-radius: 15px;
+}
+
+.card5Img > img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.card5detail {
+  width: 100%;
+  height: auto;
+  color: #ccdae7;
+  text-align: center;
+}
+
+.card5detail > h6 {
+  font-size: 1.1em;
+  margin: 10px auto 10px auto;
+}
+
+.card5Video {
+  width: initial;
+  height: inherit;
+  background-color: #0052cc;
+  position: absolute;
+}
+
+.card6Main {
+  width: 100%;
+  max-width: 870px;
+  display: flex;
+  margin: 50px auto;
+}
+
+.card6Container {
+  width: 100%;
+  max-width: 714px;
+  max-width: 714px;
+  padding: 3em;
+  background-image: url("./asset/bg-shape-05.png");
+  background-color: #0052cc;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  border-radius: 15px;
+  margin-left: 30px;
+}
+
+.card6FontArea {
+  width: 2.75em;
+  height: 2.75em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: #7f89ec;
+  border-width: 3px;
+  border-radius: 9999px;
+  border-style: solid;
+  background-color: #4036be;
+  background-image: radial-gradient(
+    circle farthest-side at -50% 50%,
+    #524add,
+    #4036be
+  );
+  box-shadow: inset 0 0 5px 0 #2e2799, 0 8px 24px -8px #7f89ec;
+  color: #bcc6ee;
+  font-size: 1.25em;
+  text-align: center;
+  padding: 2px;
+  margin-top: 30px;
+}
+.fontAreacard6 {
+  width: fit-content;
+}
+
+.ml-5 {
+  margin-left: 10px !important;
+  margin-right: 0 1 !important;
+}
+
+.leter-s-none {
+  letter-spacing: 0px !important;
+}
+
+.min-w-7 {
+  min-width: 70px !important;
+}
+
+.card6Haeding {
+  margin-bottom: 30px;
+}
+
+.card6MainJHaeding {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  text-align: start;
+}
+
+.card6MainJHaeding > h1 {
+  color: #fff;
+  letter-spacing: -0.043em;
+  margin: 0;
+}
+
+.card6MainJHaeding > p {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.Card7Main {
+  width: 100%;
+  max-width: 640px;
+  height: auto;
+  background-color: #171e25;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.card7Status {
+  width: 100%;
+  height: auto;
+}
+
+.card7ValueContainer {
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  font-family: sans-serif;
+  color: #ccdae7;
+  margin-top: 2px;
+}
+
+.card7HeadingContant {
+  min-width: 144px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.card7HeadingStatus {
+  height: auto;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.card7Nocontainer {
+  height: auto;
+  font-weight: bold;
+  font-size: 0.8em;
+  margin-right: 7px;
+  color: #bcc6ee;
+  letter-spacing: 0em;
+  margin-top: 4px;
+}
+
+.card7Heading {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding-bottom: 20px;
+  margin-top: 10px;
+  gap: 1px;
+}
+
+.card7detail {
+  width: 100%;
+  height: auto;
+  margin-top: 38px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1.3px;
+}
+
+.card7Divider {
+  width: 49%;
+  height: auto;
+}
+
+.card7Divider > p {
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  font-size: 1.12em;
+  color: #fff;
+  font-weight: 400;
+  margin: 10px auto 20px auto;
+}
+
+.card7Btn {
+  width: 95%;
+  margin: 40px auto 15px auto;
+}
+
+.card7Points {
+  width: 100%;
+  height: auto;
+  /* background-color: #617da8; */
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.card7PointD {
+  width: 90%;
+  height: auto;
+  /* background-color: red; */
+}
+
+.card7PointD > p {
+  margin: 0;
+  color: #fff;
+  line-height: 1.2;
+}
+
+.CardlineSection {
+  width: 100%;
+  max-width: 1350px;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.cardDivider {
+  width: 100%;
+  max-width: 1350px;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1100px) {
+  .divider1 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .divider2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .divider2heading > h1 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .cardDataContainer,
+  .cardImageContainer {
+    width: 100%;
+  }
+
+  .layoutCard {
+    justify-content: center;
+  }
+
+  .modalHeading {
+    font-size: 1.9em;
+  }
+
+  .modalCircleImage1 {
+    left: 8%;
+  }
+
+  .modalCircleImage2 {
+    right: 12%;
+    width: 2.5em;
+    height: 2.5em;
+  }
+
+  .modalCircleImage3 {
+    width: 4.25em;
+    height: 4.25em;
+  }
+
+  .modalCircleImage4 {
+    right: 2%;
+    bottom: 72%;
+  }
+
+  .modalCircleImage5 {
+    top: 2%;
+    right: 24%;
+    width: 4em;
+    height: 4em;
+  }
+
+  .modalCircleImage6 {
+    width: 4em;
+    height: 4em;
+    top: 6%;
+  }
+
+  .modalCircleImage7 {
+    width: 4em;
+    height: 4em;
+  }
+
+  .modalCircleImage8 {
+    left: 12%;
+  }
+
+  .modalCircleImage9 {
+    width: 3em;
+    height: 3em;
+    top: 49%;
+  }
+
+  .modalMainBody {
+    padding-top: 5em;
+    padding-bottom: 5em;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .modalHeading {
+    font-size: 1.5em;
+  }
+
+  .modalCircleImage1 {
+    width: 70px;
+    height: 70px;
+  }
+
+  .modalCircleImage2 {
+    right: 12%;
+    width: 2.5em;
+    height: 2.5em;
+  }
+
+  .modalCircleImage3 {
+    width: 3.5em;
+    height: 3.5em;
+  }
+
+  .modalCircleImage4 {
+    right: 4%;
+    bottom: 64%;
+    width: 65px;
+    height: 65px;
+  }
+
+  .modalCircleImage5 {
+    top: 2%;
+    right: 24%;
+    width: 3em;
+    height: 3em;
+  }
+
+  .modalCircleImage6 {
+    width: 3.5em;
+    height: 3.5em;
+    top: 3%;
+    right: 57%;
+  }
+
+  .modalCircleImage8 {
+    left: 9%;
+  }
+
+  .modalCircleImage9 {
+    width: 3em;
+    height: 3em;
+    top: 49%;
+    left: 3%;
+  }
+
+  .modalDetail {
+    font-size: 1.2em;
+  }
+
+  .title1HeadingH1A,
+  .title1HeadingH1 {
+    font-size: 2.3em;
+  }
+
+  .title1Detail {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .divider2heading > h1 {
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .cardContainer {
+    padding: 5rem 2rem;
+  }
+
+  .modalHeading {
+    font-size: 1.2em;
+  }
+
+  .modalDetail {
+    font-size: 0.93em;
+  }
+
+  .modalContantContainer {
+    width: 90%;
+  }
+
+  .modalCircleImage1 {
+    display: none;
+  }
+
+  .modalCircleImage2 {
+    right: 3%;
+  }
+
+  .modalCircleImage3 {
+    display: none;
+  }
+
+  .modalCircleImage8 {
+    left: 3%;
+    bottom: 11%;
+    width: 3em;
+    height: 3em;
+  }
+
+  .modalCircleImage9 {
+    display: none;
+  }
+
+  .modalCircleImage6 {
+    top: 4%;
+    right: 73%;
+  }
+
+  .modalCircleImage5 {
+    top: 0;
+    right: 37%;
+  }
+
+  .modalCircleImage4 {
+    top: 6%;
+    width: 2.7em;
+    height: 2.7em;
+  }
+
+  .title1HeadingH1A,
+  .title1HeadingH1 {
+    font-size: 1.7em;
+  }
+
+  .divider2heading > h1 {
+    font-size: 2.2em;
+  }
+}
+
+.screen {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0px auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}

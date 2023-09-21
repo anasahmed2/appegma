@@ -1,0 +1,119 @@
+.NavContainer {
+  width: 100%;
+  height: 80px;
+  margin: 10px auto 0px auto;
+  position: sticky;
+  top: 0;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: #08080850;
+  backdrop-filter: blur(20px);
+  z-index: 9999;
+}
+
+.navSection {
+  width: 100%;
+  max-width: 1350px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLogo {
+  width: 20%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navLogo > img {
+  width: 180px;
+}
+.navLinks {
+  width: 66%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navlinksStyle {
+  list-style-type: none;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+}
+
+.navlinksStyle > li {
+  cursor: pointer;
+  color: #bcc6ee;
+  letter-spacing: -0.025em;
+  font-size: 0.8em;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navlinksStyle > li:hover {
+  color: #fff;
+}
+
+.navBtnPrimary {
+  width: 120px;
+  min-width: 120px;
+}
+
+.NavBtn {
+  width: 13%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.navBtnSecondary {
+  width: 93px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navToggle {
+    display: none;
+  width: 70px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+.navToggleStyle {
+  color: #bcc6ee;
+  font-size: 1.5em;
+  cursor: pointer;
+  border: none;
+}
+
+.navToggleStyle:hover{
+    color: #fff;  
+}
+
+.navToggle_w{
+    width: fit-content;
+    height: fit-content;
+   cursor: pointer;
+}
+
+@media screen and (max-width:1000px) {
+    .navToggle{display: flex;}
+}

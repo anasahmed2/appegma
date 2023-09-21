@@ -1,0 +1,151 @@
+.FooterContainer {
+  width: 100%;
+  max-width: 1350px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.FooterSection1 {
+  display: grid;
+  padding-top: 40px;
+  grid-column-gap: 4em;
+  grid-row-gap: 4em;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto;
+  margin-bottom: 50px;
+}
+
+.footerLogo {
+  width: 14rem;
+}
+
+.footerLogo > img {
+  width: 133px;
+}
+
+.footerLinksArea {
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+.footerLinks {
+  display: grid;
+  margin-top: 0.5em;
+  -webkit-box-align: start;
+  -webkit-align-items: start;
+  -ms-flex-align: start;
+  align-items: start;
+  grid-column-gap: 2em;
+  grid-row-gap: 2em;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.linksAreaFooter {
+  width: 100%;
+  height: auto;
+}
+
+.footerUl {
+  margin: 0;
+  padding: 0px 10px;
+}
+
+.footerUl > li {
+  list-style-type: none;
+  margin-bottom: 2px;
+  color: #646f7c;
+  cursor: pointer;
+}
+
+.footerUl > li:hover {
+  color: #fff;
+}
+
+.footerLineHeading {
+  width: 100%;
+  height: auto;
+  text-align: start;
+}
+
+.footerLineHeading > h6 {
+  color: #ccdae7;
+  font-size: 0.8em;
+  font-weight: 700;
+  margin: 0px 0px 8px 10px;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+.footerLineHeading2 {
+  width: 100%;
+  height: auto;
+  text-align: start;
+  margin-top: 30px;
+}
+
+.footerLineHeading2 > h6 {
+  color: #ccdae7;
+  font-size: 0.8em;
+  font-weight: 700;
+  margin: 0px 0px 8px 10px;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+.lineBreak {
+  width: 100%;
+  height: 1px;
+  background-color: #646f7c;
+}
+
+.footerCopyR {
+  width: 100%;
+  height: auto;
+}
+
+.footerCopyDivider {
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+}
+
+.footerUl2 {
+  margin: 0;
+  padding: 0px 10px;
+  display: flex;
+  gap: 1.2;
+  flex-wrap: wrap;
+}
+
+.footerUl2 > li {
+  list-style-type: none;
+  margin-bottom: 2px;
+  color: #646f7c;
+  cursor: pointer;
+}
+
+.footerUl2 > li:hover {
+  color: #fff;
+}
+
+@media screen and (max-width: 1000px) {
+  .footerLinks {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .FooterSection1 {
+    grid-template-columns: 1fr;
+  }
+  .footerUl2 > li {
+    width: 100%;
+  }
+}
