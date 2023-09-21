@@ -306,9 +306,14 @@ const Card5 = ({ src, detail }) => {
 };
 
 const Card6 = ({ heading, detail, sno, step }) => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
-      <div className="card6Main" id="card6">
+      <div className="card6Main"  data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1500" id="card6">
         <div className="card6FontArea">
           <AiOutlineCheck fontSize={30} />
         </div>
